@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关于生活我想说的话</title>
+    <style>
+        #Rcon{width:450px;height:auto;float:left;}
+        #erweima1{width:auto;height:auto;float:right;margin-top: 20px;margin-right: 50px;}
+        #erweima2{width:auto;height:auto;float:left;margin-left:50px;margin-top: 20px;}
+    </style>
+    <link rel="stylesheet" type="text/css" href="header_css.css"/>
+    <link rel="stylesheet" type="text/css" href="footer_css.css"/>
+    <link rel="stylesheet" type="text/css" href="nav.css" />
+    <script src="nav.js" type="text/javascript"></script>
+</head>
+
+<body onLoad="Rendering();">
+    <div id="header">
+        <h1>关于生活我想说的话</h1>
+    </div>
+
+    <div id="nav"></div>   <!-- 导航栏通过js渲染，js代码在nav.js里 -->
+    
+    <div class="content_4">
+        <div id="Rcon">
+            <hr/><h2>如果你觉得我还不错，就快来联系我吧！</h2><hr/><br><br>
+        <form action="zhang_form.asp"> <!--如果点击提交，表单数据会被发送到名为zhang_form.asp 的页面-->
+        <div class="form-group">
+            <input style="width:450px;height:30px" type="name" class="form-control" id="exampleInputName" placeholder="姓名">
+        </div><br><br>
+        <div class="form-group">
+            <input style="width:450px;height:30px" type="email" class="form-control" id="exampleInputEmail1" placeholder="邮箱">
+        </div><br><br>
+        <div class="form-group">
+            <textarea style="width:450px;height:100px" class="form-control" rows="5" placeholder="留言"></textarea>
+        </div><br><br>
+            <button style="width:60px;height:30px" type="submit" class="btn btn-rabbit submit">提交</button>
+        </form>
+        </div>
+    
+        <div id="erweima1">
+            <img src="weixin.jpg" width="200px" height="200px"/>
+        </div>
+        <div id="erweima2">
+            <img src="qq.jpg" width="200px" height="200px"/>
+        </div>
+
+</div>
+    <div id="footer">
+    “绝对否定理性是徒劳无益的，理性有自己的范畴，在自己的范畴里是有效的，这正是人类经验的范畴。”
+    </div>
+
+</body>
+</html>

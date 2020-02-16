@@ -1,0 +1,45 @@
+.nav{
+      line-height:10px;
+      background-color:#830b0b;
+      height:880px;
+      width:120px;
+      float:left;
+      
+}
+.nav a{
+    height:50px;
+	line-height:40px;
+	font-size:23px;
+	color:#ffffff;
+    text-align:center;
+    padding-left: 12px;
+	text-decoration:none;
+}
+
+.content_1{
+    height:780px;
+    width:1000px;
+    float:left;
+    padding:20px;
+}
+
+.content_2{
+	height:780px;
+    width:1000px;
+    float:left;
+    padding:20px;
+}
+
+.content_3{
+	height:780px;
+    width:1000px;
+    float:left;
+    padding:20px;
+}
+
+.content_4{
+	height:780px;
+    width:1000px;
+    float:left;
+    padding:20px;
+}
