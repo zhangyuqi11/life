@@ -5,8 +5,10 @@
     <title>关于生活我想说的话</title>
     <style>
         #Rcon{width:450px;height:auto;float:left;}
-        #erweima1{width:auto;height:auto;float:right;margin-top: 20px;margin-right: 50px;}
-        #erweima2{width:auto;height:auto;float:left;margin-left:50px;margin-top: 20px;}
+        #erweima1{width:auto;height:450px;float:right;margin-top: 20px;margin-right: 50px;}
+        #erweima2{width:auto;height:450px;float:left;margin-left:50px;margin-top: 20px;}
+        #txt{width: 450px;height: auto;float: left;}
+        #lis{width: 500px;height:350px; background-color: rgb(226, 183, 183);float: right;}
     </style>
     <link rel="stylesheet" type="text/css" href="header_css.css"/>
     <link rel="stylesheet" type="text/css" href="footer_css.css"/>
@@ -45,7 +47,28 @@
             <img src="qq.jpg" width="200px" height="200px"/>
         </div>
 
-</div>
+        <div id="txt">
+            <textarea  id="text" style="width:450px;height:100px;"></textarea><br>
+            <button type="button" id="btn" style="margin-top: 20px;">评论留言</button>
+        </div>
+    
+        <div id="lis">
+        <ol id="text_li">
+        </ol>
+        </div>
+    
+        <script type="text/javascript">
+            var tet= document.getElementById("text");
+            var butt= document.getElementById("btn");
+            var tet_li= document.getElementById("text_li");
+            butt.onclick = function msg(){
+                var Li= document.createElement("li");
+                Li.innerHTML= tet.value;
+                tet_li.appendChild(Li);
+            }
+        </script>
+    </div>
+
     <div id="footer">
     “绝对否定理性是徒劳无益的，理性有自己的范畴，在自己的范畴里是有效的，这正是人类经验的范畴。”
     </div>
