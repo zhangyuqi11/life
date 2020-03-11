@@ -27,17 +27,17 @@
     <div class="content_4">
         <div id="Rcon">
             <hr/><h2>如果你觉得我还不错，就快来联系我吧！</h2><hr/><br><br>
-        <form action="zhang_form.asp"> <!--如果点击提交，表单数据会被发送到名为zhang_form.asp 的页面-->
+        <form action="information.php" method="post"> <!--如果点击提交，表单数据会被发送到名为information.php 的页面-->
         <div class="form-group">
-            <input style="width:450px;height:30px" type="name" class="form-control" id="exampleInputName" placeholder="姓名">
+            <input style="width:450px;height:30px" type="text" name="YourName" class="form-control" id="exampleInputName" placeholder="姓名">
         </div><br><br>
         <div class="form-group">
-            <input style="width:450px;height:30px" type="email" class="form-control" id="exampleInputEmail1" placeholder="邮箱">
+            <input style="width:450px;height:30px" type="text" name="YourEmail" class="form-control" id="exampleInputEmail1" placeholder="邮箱">
         </div><br><br>
         <div class="form-group">
-            <textarea style="width:450px;height:100px" class="form-control" rows="5" placeholder="留言"></textarea>
+            <textarea style="width:450px;height:100px" type="text" name="Saying" class="form-control" rows="5" placeholder="留言"></textarea>
         </div><br>
-            <button onclick="alert('成功！很高兴认识你')" style="width:60px;height:30px" type="button">提交</button>
+            <input onclick="alert('成功！很高兴认识你')" style="width:60px;height:30px" type="submit"/>
         </form>
         </div>
     
